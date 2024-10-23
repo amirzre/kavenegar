@@ -1,8 +1,8 @@
 import asyncio
 
-from config import config
-from exception import APIException, HTTPException
-from kavenegar import KavenegarAPI
+from src.config import config
+from src.exception import APIException, HTTPException
+from src.kavenegar import KavenegarAPI
 
 
 async def send_sms():
