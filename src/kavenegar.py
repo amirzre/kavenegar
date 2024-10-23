@@ -3,8 +3,8 @@ from typing import Any, Dict, Optional
 
 import aiohttp
 
-from config import config
-from exception import APIException, HTTPException
+from src.config import config
+from src.exception import APIException, HTTPException
 
 
 class KavenegarAPI:
